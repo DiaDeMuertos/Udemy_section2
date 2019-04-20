@@ -1,4 +1,4 @@
-# Section_2 Widges
+# Section_2 Widgets
 
 ## Content
 
@@ -11,3 +11,4 @@
 - [Container](https://docs.flutter.io/flutter/widgets/Container-class.html)
 - [Row](https://docs.flutter.io/flutter/widgets/Row-class.html)
 - [Column](https://docs.flutter.io/flutter/widgets/Column-class.html)
+- [Stack](https://docs.flutter.io/flutter/widgets/Stack-class.html)
