@@ -101,6 +101,26 @@ class _MyHomePageState extends State<MyHomePage> {
                     )
                   ],
                 ),
+              ),
+              Stack(
+                alignment: AlignmentDirectional.center,
+                children: <Widget>[
+                  Container(
+                    width: 50,
+                    height: 50,
+                    color: Colors.red,
+                  ),
+                  Container(
+                    width: 45,
+                    height: 45,
+                    color: Colors.green,
+                  ),
+                  Container(
+                    width: 40,
+                    height: 40,
+                    color: Colors.blue,
+                  ),
+                ],
               )
             ],
           ),
