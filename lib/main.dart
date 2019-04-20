@@ -45,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Container(
           color: Colors.pink[100],
           width: 200,
-          child: Row(
+          child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Text(
@@ -71,6 +71,37 @@ class _MyHomePageState extends State<MyHomePage> {
                     ..style = PaintingStyle.stroke,
                 ),
               ),
+              Container(
+                color: Colors.grey,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    Text(
+                      'Jelow',
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    Text(
+                      'World',
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30,
+                        foreground: Paint()
+                          ..strokeWidth = 1
+                          ..color = Colors.red
+                          ..style = PaintingStyle.stroke,
+                      ),
+                    )
+                  ],
+                ),
+              )
             ],
           ),
         ),
