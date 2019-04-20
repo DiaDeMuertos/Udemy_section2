@@ -42,12 +42,16 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       body: Center(
-        child: Text(
-          'Jelow World',
-          style: TextStyle(
-            fontStyle: FontStyle.italic,
-            fontSize: 20,
-            fontWeight: FontWeight.bold,
+        child: Container(
+          width: 200,
+          child: Text(
+            'Jelow World',
+            style: TextStyle(
+              fontStyle: FontStyle.italic,
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+            ),
+            textAlign: TextAlign.center,
           ),
         ),
       ),
