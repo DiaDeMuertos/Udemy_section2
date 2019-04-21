@@ -13,3 +13,4 @@
 - [Column](https://docs.flutter.io/flutter/widgets/Column-class.html)
 - [Stack](https://docs.flutter.io/flutter/widgets/Stack-class.html)
 - [Image](https://docs.flutter.io/flutter/widgets/Image-class.html)
+- [Padding](https://docs.flutter.io/flutter/widgets/Padding-class.html)
