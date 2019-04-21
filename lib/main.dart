@@ -181,6 +181,30 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   ),
                 ),
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Container(
+                color: Colors.cyan,
+                height: 30,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    Text(
+                      ('(2+2)'),
+                      style: TextStyle(color: Colors.white),
+                    ),
+                    Baseline(
+                      baseline: 0,
+                      baselineType: TextBaseline.ideographic,
+                      child: Text(
+                        '3',
+                        style: TextStyle(fontSize: 10, color: Colors.white),
+                      ),
+                    ),
+                  ],
+                ),
               )
             ],
           ),
