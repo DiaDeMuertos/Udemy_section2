@@ -16,3 +16,4 @@
 - [Padding](https://docs.flutter.io/flutter/widgets/Padding-class.html)
 - [Center](https://docs.flutter.io/flutter/widgets/Center-class.html)
 - [Align](https://docs.flutter.io/flutter/widgets/Align-class.html)
+- [Constrained Box](https://docs.flutter.io/flutter/widgets/ConstrainedBox-class.html)
