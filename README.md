@@ -15,3 +15,4 @@
 - [Image](https://docs.flutter.io/flutter/widgets/Image-class.html)
 - [Padding](https://docs.flutter.io/flutter/widgets/Padding-class.html)
 - [Center](https://docs.flutter.io/flutter/widgets/Center-class.html)
+- [Align](https://docs.flutter.io/flutter/widgets/Align-class.html)
