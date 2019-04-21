@@ -17,3 +17,4 @@
 - [Center](https://docs.flutter.io/flutter/widgets/Center-class.html)
 - [Align](https://docs.flutter.io/flutter/widgets/Align-class.html)
 - [Constrained Box](https://docs.flutter.io/flutter/widgets/ConstrainedBox-class.html)
+- [Baseline](https://docs.flutter.io/flutter/widgets/Baseline-class.html)
