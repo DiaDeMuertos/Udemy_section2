@@ -102,6 +102,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   ],
                 ),
               ),
+              SizedBox(
+                height: 5,
+              ),
               Stack(
                 alignment: AlignmentDirectional.center,
                 children: <Widget>[
@@ -121,7 +124,23 @@ class _MyHomePageState extends State<MyHomePage> {
                     color: Colors.blue,
                   ),
                 ],
-              )
+              ),
+              SizedBox(
+                height: 5,
+              ),
+              Image(
+                width: 50,
+                image: NetworkImage(
+                    'https://ya-webdesign.com/images/cartoon-skull-png-14.vnd'),
+              ),
+              SizedBox(
+                height: 5,
+              ),
+              Image(
+                width: 50,
+                image:
+                    AssetImage('assets/images/skull_tattoo.png'),
+              ),
             ],
           ),
         ),
