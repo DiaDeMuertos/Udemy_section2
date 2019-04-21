@@ -140,6 +140,16 @@ class _MyHomePageState extends State<MyHomePage> {
                   image: AssetImage('assets/images/skull_tattoo.png'),
                 ),
               ),
+              Container(
+                color: Colors.indigo,
+                width: 200,
+                child: Center(
+                  child: Text(
+                    'Here we go!!!!',
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ),
+              )
             ],
           ),
         ),
