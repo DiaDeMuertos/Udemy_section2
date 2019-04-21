@@ -12,3 +12,4 @@
 - [Row](https://docs.flutter.io/flutter/widgets/Row-class.html)
 - [Column](https://docs.flutter.io/flutter/widgets/Column-class.html)
 - [Stack](https://docs.flutter.io/flutter/widgets/Stack-class.html)
+- [Image](https://docs.flutter.io/flutter/widgets/Image-class.html)
