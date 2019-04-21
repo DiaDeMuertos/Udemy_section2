@@ -164,6 +164,23 @@ class _MyHomePageState extends State<MyHomePage> {
                     style: TextStyle(color: Colors.white),
                   ),
                 ),
+              ),
+              SizedBox(
+                height: 5,
+              ),
+              ConstrainedBox(
+                constraints: BoxConstraints(maxWidth: 60, minWidth: 60),
+                child: Container(
+                  color: Colors.orange,
+                  width: 10,
+                  child: Align(
+                    alignment: Alignment.topLeft,
+                    child: Text(
+                      'Meow Meow',
+                      style: TextStyle(color: Colors.white),
+                    ),
+                  ),
+                ),
               )
             ],
           ),
