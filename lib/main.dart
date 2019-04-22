@@ -205,7 +205,20 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   ],
                 ),
-              )
+              ),
+              SizedBox(
+                height: 5,
+              ),
+              Container(
+                color: Colors.lightGreen,
+                width: 100,
+                child: AspectRatio(
+                  aspectRatio: 16 / 9,
+                  child: Image(
+                    image: AssetImage('assets/images/skull_tattoo.png'),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
