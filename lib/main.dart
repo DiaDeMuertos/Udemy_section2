@@ -232,6 +232,18 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   ),
                 ),
+              ),
+              Center(
+                child: SizedBox(
+                  width: 50,
+                  child: Transform(
+                    transform: Matrix4.rotationZ(0.785398),
+                    origin: Offset(25, 25),
+                    child: Image(
+                      image: AssetImage('assets/images/skull_tattoo.png'),
+                    ),
+                  ),
+                ),
               )
             ],
           ),
