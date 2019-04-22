@@ -19,3 +19,4 @@
 - [Constrained Box](https://docs.flutter.io/flutter/widgets/ConstrainedBox-class.html)
 - [Baseline](https://docs.flutter.io/flutter/widgets/Baseline-class.html)
 - [Aspect Ratio](https://docs.flutter.io/flutter/widgets/AspectRatio/AspectRatio.html)
+- [Sized Box](https://docs.flutter.io/flutter/widgets/SizedBox-class.html)

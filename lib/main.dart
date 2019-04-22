@@ -219,6 +219,20 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ),
               ),
+              Padding(
+                padding: const EdgeInsets.only(top: 5, bottom: 5),
+                child: Container(
+                  color: Colors.blueAccent,
+                  child: Center(
+                    child: SizedBox(
+                      width: 50,
+                      child: Image(
+                        image: AssetImage('assets/images/skull_tattoo.png'),
+                      ),
+                    ),
+                  ),
+                ),
+              )
             ],
           ),
         ),
